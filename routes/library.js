@@ -27,9 +27,6 @@ router.post('/books', createBook);
 // DELETE a book
 router.post('/books/:id', deleteBook);
 
-// UPDATE a new book
-// router.post('/:id', updateBook);
-
 // GET all users
 router.get('/users', getUsers);
 
